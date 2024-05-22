@@ -1,0 +1,32 @@
+FN 
+	- Only one possibility [Everything is correct, but student is not marked present]
+		# This seems to never happen so let's consider it checked off ✅
+
+TN
+	- One of the necessary attributes for clearing IS_ABSENT is not met. Not marked present.
+
+TP
+	- Right subject, right section, right room, right time, right day
+
+FP
+	- You arrive at the wrong time, marks you present
+		 Right subject, right section, right room,  wrong time, right day
+	
+	- Arrive to class at the right place and time, but wrong day
+		 Right subject, right section, right room, right time, wrong day
+	
+	- Try to enter a different ongoing section's room and it works 
+		(wrong section + right time + right room + right day)	
+	
+
+Error cases: 
+	( - No class in session in this room
+	  - Room does not occur in the database )
+		- Handled by polling for ongoing class in room before student check 
+
+	- Student ID does not exist 
+		- (impossible, PK and FK requirements)
+	- Subject ID does not exist
+		- (impossible, due to FK requirement)
+	- Section does not exist 
+		- (impossible, due to FK requirement)
