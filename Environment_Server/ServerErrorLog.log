@@ -28555,3 +28555,78 @@ Traceback (most recent call last):
   File "c:\Users\yaz_s\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_xlsxwriter.py", line 197, in __init__
     from xlsxwriter import Workbook
 ModuleNotFoundError: No module named 'xlsxwriter'
+
+EE102 connected at 2024-05-28T20:45:50.639803
+2024-05-28 20:46:52,641 ERROR __main__ [WinError 10038] An operation was attempted on something that is not a socket
+Traceback (most recent call last):
+  File "C:\Users\yaz_s\AppData\Local\Temp\ipykernel_26388\3959895614.py", line 453, in handle_client
+    msg_in = connection.recv(4)
+            ^^^^^^^^^^^^^^^^^^
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+EE102 disconnected at 2024-05-28T20:46:52.649299
+
+Cumulative prediction accuracy =  73%
+
+EE137 connected at 2024-05-28T21:05:27.225423
+2024-05-28 21:06:29,238 ERROR __main__ [WinError 10038] An operation was attempted on something that is not a socket
+Traceback (most recent call last):
+  File "C:\Users\yaz_s\AppData\Local\Temp\ipykernel_20964\3959895614.py", line 453, in handle_client
+    msg_in = connection.recv(4)
+            ^^^^^^^^^^^^^^^^^^
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+EE137 disconnected at 2024-05-28T21:06:29.251254
+
+Cumulative prediction accuracy =  73%
+
+EE137 connected at 2024-05-28T21:08:36.293219
+
+
+
+2024-05-28 21:09:38,306 ERROR __main__ [WinError 10038] An operation was attempted on something that is not a socket
+Traceback (most recent call last):
+  File "C:\Users\yaz_s\AppData\Local\Temp\ipykernel_20964\3959895614.py", line 453, in handle_client
+    msg_in = connection.recv(4)
+            ^^^^^^^^^^^^^^^^^^
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+2024-05-28 21:09:38,306 ERROR __main__ [WinError 10038] An operation was attempted on something that is not a socket
+Traceback (most recent call last):
+  File "C:\Users\yaz_s\AppData\Local\Temp\ipykernel_20964\3959895614.py", line 453, in handle_client
+    msg_in = connection.recv(4)
+            ^^^^^^^^^^^^^^^^^^
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+EE137 disconnected at 2024-05-28T21:09:38.344192
+
+EE137 connected at 2024-05-28T21:11:22.160768
+
+EE137 disconnected at 2024-05-28T21:11:39.264090
+
+Cumulative prediction accuracy =  73%
+
+EE102 connected at 2024-05-28T23:03:42.246190
+2024-05-28 23:04:29,237 ERROR __main__ [WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "C:\Users\yaz_s\AppData\Local\Temp\ipykernel_22412\3959895614.py", line 453, in handle_client
+    msg_in = connection.recv(4)
+            ^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+EE102 disconnected at 2024-05-28T23:04:29.247904
+
+EE137 connected at 2024-05-28T23:04:29.249905
+
+EE137 disconnected at 2024-05-28T23:04:36.705132
+
+Cumulative prediction accuracy =  73%
+
+EE137 connected at 2024-05-28T23:52:50.875434
+
+EE102 connected at 2024-05-28T23:52:59.878445
+
+EE137 disconnected at 2024-05-28T23:53:46.334936
+
+EE102 disconnected at 2024-05-28T23:53:56.864986
+
+Cumulative prediction accuracy =  74%

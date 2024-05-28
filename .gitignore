@@ -10,3 +10,5 @@ Environment_Server/Model/TEMP_model_test.ipynb
 Environment_Server/Model/GradProject\[1\].ipynb
 Environment_Server/Model/TEMP_model_test.ipynb
 /Environment_Server/Model
+/__pycache__
+Server Script.py
